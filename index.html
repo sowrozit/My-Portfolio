@@ -141,10 +141,12 @@
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">I am Sowrozit Sarker and I am a fresh graduate from American International University - Bangladesh from the department of Computer Science & Engineering. Apart from being a web developer, I enjoy most of my leisure time being outdoors. In the winter, I love to visit countryside .I use to play badminton during every winter and it is my most favorite game. During the warmer months here in Bangladesh, I enjoy visiting seaside and waterfalls.</p>
+            <p class="lead"><p class="text-justify">I am Sowrozit Sarker and I am a fresh graduate from American International University - Bangladesh from the department of Computer Science & Engineering. Apart from being a web developer, I enjoy most of my leisure time being outdoors. In the winter, I love to visit countryside .I use to play badminton during every winter and it is my most favorite game. During the warmer months here in Bangladesh, I enjoy visiting seaside and waterfalls.</p>
+            </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">I have a great enthusiasm in the field of data science. I have done my undergraduate thesis on data science and the topic is "Effects of weather on retail sales". I have tried to find out that is there any effect of weather on retail sales or not. Though I love programming, I have a great interest to work in the area of data science.</p>
+            <p class="lead"><p class="text-justify">I have a great enthusiasm in the field of data science. I have done my undergraduate thesis on data science and the topic is "Effects of weather on retail sales". I have tried to find out that is there any effect of weather on retail sales or not. Though I love programming, I have a great interest to work in the area of data science.</p>
+            </p>
           </div>
         </div>
         <!-- <div class="text-center mt-4">
@@ -282,7 +284,8 @@
               <h2 class="text-secondary text-uppercase mb-0">Online School</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/eschool.png" alt="">
-              <p class="mb-5">This is a portal for online school. There are three types of users named admin,teacher and student. Student can log into the site and perform several quizzes from different sections like JSC,SSC and HSC . They can also see their own performance history. There are the teachers who can add questions under mentioned sections. They will also able to observe the performance of all students who performed quizzes for different topics. They cal also add , delete or update any subject contents but cannot modify any student account. All the operations lying under the site are accessible by the admin. They can manage the teachers, students, subjects and everything.</p>
+              <p class="mb-5" ><p class="text-justify">This is a portal for online school. There are three types of users named admin,teacher and student. Student can log into the site and perform several quizzes from different sections like JSC,SSC and HSC . They can also see their own performance history. There are the teachers who can add questions under mentioned sections. They will also able to observe the performance of all students who performed quizzes for different topics. They cal also add , delete or update any subject contents but cannot modify any student account. All the operations lying under the site are accessible by the admin. They can manage the teachers, students, subjects and everything.</p>
+              </p>
               <p>
                 <a href="https://github.com/sowrozit/E-school">
                 <span class="fa-stack fa-lg">
@@ -312,7 +315,8 @@
               <h2 class="text-secondary text-uppercase mb-0">Doctor's Care</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/doctor.png" alt="">
-              <p class="mb-5">This website helps everyone to find doctors on the basis of their diseases, location and the doctor's specialty. Each doctor have a separate account and the doctors are able to check every information about their assigned patients. It will also help people to search for emergency services for instance ambulance and blood.</p>
+              <p class="mb-5"><p class="text-justify">This website helps everyone to find doctors on the basis of their diseases, location and the doctor's specialty. Each doctor has a separate account and the doctors are able to check every information about their assigned patients. It will also help people to search for emergency services for instance ambulance and blood.</p>
+              </p>
               <p>
               	<a href="https://github.com/sowrozit/Doctor-s-Care">
                 <span class="fa-stack fa-lg">
@@ -342,7 +346,18 @@
               <h2 class="text-secondary text-uppercase mb-0">EFFECTS OF WEATHER ON RETAIL SALES.</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/retail.png" alt="">
-              <p class="mb-5">ABSTRACT : Monthly fluctuations in consumer spending are often attributed to the weather. This paper presents a model in which weather affects the productivity of time in nonmarket activities such as shopping or recreation and so, via time and budget constraints, may induce substitution in spending across goods and over time. Using monthly data on retail sales and weather data from the National Weather Service, we have found that unusual weather has a modest but significant role in explaining monthly sales fluctuations. However, lagged effects often offset original effects, so that weather's influence tends to wash out at a quarterly frequency.</p>
+
+              <p class="mb-5">
+              <p class="text-justify">I have done a research as a part of my undergraduate thesis.My thesis topic relates to data science.</p>
+              <p class="text-justify"><b>ABSTRACT :</b> Monthly fluctuations in consumer spending are often attributed to the weather. This paper presents a model in which weather affects the productivity of time in nonmarket activities such as shopping or recreation and so, via time and budget constraints, may induce substitution in spending across goods and over time. Using monthly data on retail sales and weather data from the National Weather Service, we have found that unusual weather has a modest but significant role in explaining monthly sales fluctuations. However, lagged effects often offset original effects, so that weather's influence tends to wash out at a quarterly frequency.</p>
+              <p class="text-justify"><b>Dataset:</b>
+              	 For this research, we collected the dataset from Walmart. The data set included sales data for 111 products whose sales may be affected by the weather (such as milk, bread, umbrellas, etc.). These 111 products are sold in stores at 45 different Walmart locations. Some of the products may be a similar item (such as milk) but have a different id in different stores/regions/suppliers. The 45 locations are covered by 20 weather stations (i.e. some of the stores are nearby and share a weather station).There were three files. One file contained various weather info collected from 20 weather stations of 45 locations of a year. It contained weather info like Max Temperature, Min Temperature, Average Temperature, Snowfall, Dew Point, Precip Total, Sea Level, Wind Speed etc. There was another file which contained info about which store is located near which weather station, this file is vital for finding how the weather condition was near a particular store by linking store number with weather station number. Finally, there was a file with sales data for a year. It contained info about which store sold which item and how many units in a particular date. The names of store locations and item names were changed with code names like “Store One”, “Item One” etc.</p>
+              <p class="text-justify"><b>Pre-processing:</b>
+                 We processed the data using python. We selected “Item Five” and “Store Two”. So, our goal was to find weather’s effect on item five sold at store two. We made a single file from the three dataset. We choose average temperature and weather condition for checking whether they have any impact on Item Five sold on Store Two. The common factor between weather and sales data was the date. From there we constructed a single file for making a training set.</p>
+              <p class="text-justify"><b>Storage:</b>
+                 We used MySQL as our data storage. Using python, we generated a csv file. Then we exported the csv file in a MySQL database. The database provided us with the opportunity to run complex query to fetch appropriate data.</p>
+             </p>
+                 
               <p>
               	<a href="https://github.com/sowrozit/Thesis">
                 <span class="fa-stack fa-lg">
